@@ -33,6 +33,28 @@ Redbox\DNS\Resolver Object
 
 )
 ```
+
+```php
+$resolver = new \Redbox\DNS\Resolver();
+$resolver->resolve('google.com', DNS_ALL);
+
+foreach($resolver as $record) {
+    if ($record['type'] == 'MX')
+        echo $record['type'] . ' ' . $record['pri'] . ' '. $record['target']."\n";
+};
+```
+
+***ouput***
+```bash
+$ php ./example.php
+MX 30 alt2.aspmx.l.google.com
+MX 20 alt1.aspmx.l.google.com
+MX 40 alt3.aspmx.l.google.com
+MX 50 alt4.aspmx.l.google.com
+MX 10 aspmx.l.google.com
+
+```
+
 # Resolve Options (TODO)
 
 | Tables        | Are           | Cool  |
