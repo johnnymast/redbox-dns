@@ -1,0 +1,42 @@
+{
+  "name": "redbox/dns",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/johnnymast/redbox-dns",
+  "support": {
+    "issues": "https://github.com/johnnymast/redbox-dns/issues",
+    "email": "mastjohnny@gmail.com"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com",
+      "homepage": "https://github.com/johnnymast",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Redbox\\DNS\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Redbox\\DNS\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
+
+
+

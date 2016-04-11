@@ -1,0 +1,26 @@
+language: php
+sudo: false
+
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7
+  - hhvm
+
+env:
+  - COMPOSER_OPTS=""
+  - COMPOSER_OPTS="--prefer-lowest"
+
+before_script:
+
+  - composer self-update
+  - composer update
+
+script:
+  - if [ "$TRAVIS_PHP_VERSION" == 7 ]; then vendor/bin/phpunit -d -q=brownfox; fi
+  - if [ "$TRAVIS_PHP_VERSION" != 7 ]; then vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover -d -q=brownfox; fi
+
+after_script:
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - if [ "$TRAVIS_PHP_VERSION" != 7 ]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
