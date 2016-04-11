@@ -129,7 +129,6 @@ xxx
 
 The following versions of PHP are supported by this version.
 
-+ PHP 5.3
 + PHP 5.4
 + PHP 5.5
 + PHP 5.6
@@ -138,7 +137,7 @@ The following versions of PHP are supported by this version.
 
 ## Development Requirements
 
-+ Phpunit 4.8
++ Phpunit 4.6
 
 
 ## Author
