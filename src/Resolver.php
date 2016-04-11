@@ -1,14 +1,17 @@
 <?php
 namespace Redbox\DNS;
 
-class Resolver extends Reflectable
+class Resolver extends \ArrayIterator
 {
-    /**
-     * Resolver constructor.
-     */
-    public function __construct()
+
+    public function clear()
     {
-        $this->DNS       = [];
+        $this->rewind();
+        $num = $this->count();
+
+        for ($i = 0; $i < $num; $i++) {
+            $this->offsetUnset($i);
+        }
     }
 
     /**
@@ -29,7 +32,10 @@ class Resolver extends Reflectable
             return false;
         }
 
-        $this->DNS = $result;
+        foreach ($result as $record) {
+            $this->append($record);
+        }
+        
         return true;
     }
 

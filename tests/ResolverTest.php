@@ -1,7 +1,6 @@
 <?php
 namespace Redbox\DNS\Tests;
 use Redbox\DNS\Resolver as Resolver;
-use Redbox\Tests\DNS\Constraint\IsSuccessfulResolveResponseConstraint;
 
 class ResolverTest extends \PHPUnit_Framework_TestCase
 {
@@ -29,11 +28,11 @@ class ResolverTest extends \PHPUnit_Framework_TestCase
     /**
      * @depends test_resolve_returns_true_on_success
      */
-    public function test_resolve_returns_has_records_on_success() {
+    public function test_resolve_returns_has_records_on_success()
+    {
         $resolver = new Resolver;
         $resolver->resolve('php.net');
-        $this->assertThat($resolver, new IsSuccessfulResolveResponseConstraint()) ;
+        $this->assertTrue(($resolver->count() > 0));
         unset($resolver);
     }
-
 }
