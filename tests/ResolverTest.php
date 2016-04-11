@@ -35,4 +35,13 @@ class ResolverTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue(($resolver->count() > 0));
         unset($resolver);
     }
+
+    public function test_clear_actually_clears_the_array()
+    {
+        $resolver = new Resolver;
+        $resolver->append(1);
+        $this->assertEquals(1, $resolver->count());
+        $resolver->clear();
+        $this->assertEquals(0, $resolver->count());
+    }
 }

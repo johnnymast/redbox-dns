@@ -4,6 +4,9 @@ namespace Redbox\DNS;
 class Resolver extends \ArrayIterator
 {
 
+    /**
+     * Clear the array
+     */
     public function clear()
     {
         $this->rewind();
@@ -35,7 +38,7 @@ class Resolver extends \ArrayIterator
         foreach ($result as $record) {
             $this->append($record);
         }
-        
+
         return true;
     }
 
