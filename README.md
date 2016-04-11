@@ -3,8 +3,13 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/?branch=master)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
-# redbox-dns
-NOT READY
+# redbox-dns (NOT READY)
+
+```PHP
+
+
+```
+
 
 [LICENSE](LICENSE.md)
  
