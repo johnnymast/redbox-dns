@@ -121,5 +121,32 @@ Redbox\DNS\Resolver Object
 )
 ```
 
-[LICENSE](LICENSE.md)
+
+## Unit Testing
+
+Redbox-dns comes with a suite of tests that you can run. The tests will be automaticaly run on
+[trevis-ci.com](https://travis-ci.org/johnnymast/redbox-dns) and inspected on [scrutinizer-ci.com](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/?branch=master).
+
+xxx
+
+## Requirements
+
+The following versions of PHP are supported by this version.
+
++ PHP 5.3
++ PHP 5.4
++ PHP 5.5
++ PHP 5.6
++ PHP 7
++ HHVM
++ Symfony Yaml 2.8
+
+## Development Requirements
+
++ Phpunit 4.8
+
+
+## Author
+
+This package is created and maintained by [Johnny Mast](https://github.com/johnnymast). If you have any questions feel free to contact me on twitter by using [@mastjohnny](https://twitter.com/intent/tweet?text=@mastjohnny) in your tweet.
  
