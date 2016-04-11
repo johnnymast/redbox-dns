@@ -1,7 +1,6 @@
 <?php
 namespace Redbox\DNS\Tests;
 use Redbox\DNS\Resolver as Resolver;
-use Constraint;
 use Redbox\Tests\DNS\Constraint\IsSuccessfulResolveResponseConstraint;
 
 class ResolverTest extends \PHPUnit_Framework_TestCase
