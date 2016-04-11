@@ -31,7 +31,7 @@ class Resolver extends \ArrayIterator
 
         $result = dns_get_record($domain, $type);
 
-        if (empty($result) || $result === false) {
+        if (empty($result) === true || $result === false) {
             return false;
         }
 
