@@ -28,15 +28,6 @@ Redbox\DNS\Resolver Object
                     [ip] => 72.52.91.14
                 )
 
-            [1] => Array
-                (
-                    [host] => php.net
-                    [class] => IN
-                    [ttl] => 375
-                    [type] => NS
-                    [target] => dns2.easydns.net
-                )
-
             ....
         )
 
