@@ -3,6 +3,15 @@ namespace Redbox\DNS;
 
 class Resolver extends Reflectable
 {
+    /**
+     * Resolver constructor.
+     */
+    public function __construct()
+    {
+        $this->ADITIONAL = [];
+        $this->DNS       = [];
+        $this->NS        = [];
+    }
 
     /**
      * @param string $domain
