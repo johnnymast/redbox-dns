@@ -39,19 +39,20 @@ MX 10 aspmx.l.google.com
 The second parameter to the resolve method can be used to define the desired record type to return. Below is a list of the available record types.
 
 
-| Type       | Record Type   | Description                |
+| Type       | Record Type   | Description                                                      |
+| ----------:| -------------:| ----------------------------------------------------------------:|
 | DNS_ALL    | ALL           | Iteratively query the name server for each available record type |
-| DNS_A      | A             | IPv4 Address Resource      |
-| DNS_CNAME  | CNAME         | Alias (Canonical Name) Resource |
-| DNS_HINFO |  HINFO         | Host Info Resource |
-| DNS_MX | MX | Mail Exchanger Resource |
-| DNS_NS | NS | Authoritative Name Server Resource |
-| DNS_PTR | PTR | Pointer Resource (Reverse DNS) |
-| DNS_SOA | SOA | Start of Authority Resource |
-| DNS_TXT | TXT | Text Resource |
-| DNS_AAAA | AAAA | Pv6 Address Resource |
-| DNS_SRV | SRV | Service record (SRV record) |
-| DNS_NAPTR | NAPTR |  Name Authority Pointer |
+| DNS_A      | A             | IPv4 Address Resource                                            |
+| DNS_CNAME  | CNAME         | Alias (Canonical Name) Resource                                  |
+| DNS_HINFO  |  HINFO        | Host Info Resource                                               |
+| DNS_MX     | MX            | Mail Exchanger Resource                                          |
+| DNS_NS     | NS            | Authoritative Name Server Resource                               |
+| DNS_PTR    | PTR           | Pointer Resource (Reverse DNS)                                   |
+| DNS_SOA    | SOA           | Start of Authority Resource                                      |
+| DNS_TXT    | TXT           | Text Resource                                                    |
+| DNS_AAAA   | AAAA          | Pv6 Address Resource                                             |
+| DNS_SRV    | SRV           | Service record (SRV record)                                      |
+| DNS_NAPTR  | NAPTR         | Name Authority Pointer                                           |
 
 ## Unit Testing
 
