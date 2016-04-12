@@ -60,6 +60,28 @@ The second parameter to the resolve method can be used to define the desired rec
 $resolver->resolve('google.com', DNS_CNAME);
 ```
 
+## Installation
+
+Using [composer](https://packagist.org/packages/redbox/scan):
+
+```bash
+$ composer require redbox/scan
+```
+
+## Installation trough archive download
+
+If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-scan/) or [phpclasses.org](http://www.phpclasses.org/package/9573-PHP-Scan-files-for-new-or-modified-files.html) or any other) you will need composer installed on your machine.
+The reason for this is that Redbox-scan comes without the require vendor directory which is required to run the package.
+
+First of all if you don't have composer installed you can find it [here](https://getcomposer.org/) follow the instructions and don't get intimidated in fact its really really easy to install.
+
+In the this sample i will assume you have composer installed (on any machine). Go to the package root (where composer.json is located) and execute the following command.
+
+```bash
+$ composer install  --no-dev
+```
+
+
 ## Unit Testing
 
 Redbox-dns comes with a suite of tests that you can run. The tests will be automaticaly run on
