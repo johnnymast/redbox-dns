@@ -5,8 +5,7 @@
 
 # Redbox-dns (NOT READY)
 
-Redbox-dns can be used to quickly query dns records a given domain. The API it self is extremely easy to use.
-Make sure to check the [examples](https://github.com/johnnymast/redbox-dns/tree/master/examples) directory for some basic examples.
+Redbox-dns can be used to quickly query dns records a given domain. The API it self is extremely easy to use but you can always check out the [examples](https://github.com/johnnymast/redbox-dns/tree/master/examples) directory for some basic examples.
 
 
 
