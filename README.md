@@ -10,7 +10,7 @@ Redbox-dns could be used to retrieve dns records for a domain you wish to query 
 
 # Examples
 
-In the examples folder you find basic examples of how to scan your filesystem. If you want to learn howto write your own Adapter i suggest checking out the database example.
+In the examples folder you find basic examples of how to request dns records. Below you find an extremely easy way of receiving the mx records for Google.com and print them out. You can find this example once again in the examples directory.
 
 
 ```php
@@ -25,7 +25,7 @@ foreach($resolver as $record) {
 
 ***ouput***
 ```bash
-$ php ./example.php
+$ php ./mxrecords.php
 MX 30 alt2.aspmx.l.google.com
 MX 20 alt1.aspmx.l.google.com
 MX 40 alt3.aspmx.l.google.com
