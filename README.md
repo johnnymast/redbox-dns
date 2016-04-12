@@ -5,7 +5,7 @@
 
 # Redbox-dns (NOT READY)
 
-Redbox-dns could be used to retrieve dns records for a domain you wish to query for. The API offered to you extremely easy.
+Redbox-dns can be used to retrieve dns records for a domain you wish to query for. The API offered to you is extremely easy. Make sure to check the [examples](examples) directory for some basic examples.
 
 
 # Examples
@@ -62,16 +62,16 @@ $resolver->resolve('google.com', DNS_CNAME);
 
 ## Installation
 
-Using [composer](https://packagist.org/packages/redbox/scan):
+Using [composer](https://getcomposer.org/):
 
 ```bash
-$ composer require redbox/scan
+$ composer require redbox/dns
 ```
 
 ## Installation trough archive download
 
-If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-scan/) or [phpclasses.org](http://www.phpclasses.org/package/9573-PHP-Scan-files-for-new-or-modified-files.html) or any other) you will need composer installed on your machine.
-The reason for this is that Redbox-scan comes without the require vendor directory which is required to run the package.
+If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-dns/) or [phpclasses.org](http://www.phpclasses.org/package/9719-PHP-Quickly-retrieve-any-type-of-DNS-record-you-wish.html) or any other) you will need composer installed on your machine.
+The reason for this is that Redbox-dns comes without the require vendor directory which is required to run the package.
 
 First of all if you don't have composer installed you can find it [here](https://getcomposer.org/) follow the instructions and don't get intimidated in fact its really really easy to install.
 
