@@ -11,7 +11,7 @@ Redbox-dns can be used to quickly query dns records a given domain. The API it s
 
 # Examples
 
-In the examples directory you find examples on how you can the class. Below you find an extremely easy way of receiving the mx records for Google.com and print them out. You can find this example once again in the examples directory.
+In the examples directory you find usecases on how you can the class. Below you find an extremely easy way of receiving the mx records for Google.com and print them out. You can find this example once again in the examples directory.
 
 
 ```php
