@@ -5,7 +5,9 @@
 
 # Redbox-dns (NOT READY)
 
-Redbox-dns can be used to retrieve dns records for a domain you wish to query for. The API offered to you is extremely easy. Make sure to check the [examples](examples) directory for some basic examples.
+Redbox-dns can be used to quickly query dns records a given domain. The API it self is extremely easy to use.
+Make sure to check the [examples](https://github.com/johnnymast/redbox-dns/tree/master/examples) directory for some basic examples.
+
 
 
 # Examples
@@ -97,7 +99,16 @@ The following versions of PHP are supported by this version.
 + PHP 7
 + HHVM
 
+## License
+
+Redbox-dns is released under the MIT public license.
+
+[LICENSE](https://github.com/johnnymast/redbox-dns/blob/master/LICENSE.md)
+
 ## Author
 
 This package is created and maintained by [Johnny Mast](https://github.com/johnnymast). If you have any questions feel free to contact me on twitter by using [@mastjohnny](https://twitter.com/intent/tweet?text=@mastjohnny) in your tweet.
  
+## Enjoy
+
+ Oh and if you've come down this far, you might as well [follow me](https://twitter.com/mastjohnny) on twitter.
