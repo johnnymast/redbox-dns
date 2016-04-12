@@ -54,7 +54,7 @@ The second parameter to the resolve method can be used to define the desired rec
 | DNS_SRV    | SRV           | Service record (SRV record)                                      |
 | DNS_NAPTR  | NAPTR         | Name Authority Pointer                                           |
 
-*** Example ***
+***Example: Retrieve all CNAME records***
 ```php
 /* retreive all CNAME records */
 $resolver->resolve('google.com', DNS_CNAME);
