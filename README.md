@@ -40,11 +40,11 @@ The second parameter to the resolve method can be used to define the desired rec
 
 
 | Type       | Record Type   | Description                                                      |
-| ----------:| -------------:| ----------------------------------------------------------------:|
+|:-----------|:--------------| :----------------------------------------------------------------|
 | DNS_ALL    | ALL           | Iteratively query the name server for each available record type |
 | DNS_A      | A             | IPv4 Address Resource                                            |
 | DNS_CNAME  | CNAME         | Alias (Canonical Name) Resource                                  |
-| DNS_HINFO  |  HINFO        | Host Info Resource                                               |
+| DNS_HINFO  | HINFO        | Host Info Resource                                               |
 | DNS_MX     | MX            | Mail Exchanger Resource                                          |
 | DNS_NS     | NS            | Authoritative Name Server Resource                               |
 | DNS_PTR    | PTR           | Pointer Resource (Reverse DNS)                                   |
