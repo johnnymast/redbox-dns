@@ -44,7 +44,7 @@ The second parameter to the resolve method can be used to define the desired rec
 | DNS_ALL    | ALL           | Iteratively query the name server for each available record type |
 | DNS_A      | A             | IPv4 Address Resource                                            |
 | DNS_CNAME  | CNAME         | Alias (Canonical Name) Resource                                  |
-| DNS_HINFO  | HINFO        | Host Info Resource                                               |
+| DNS_HINFO  | HINFO        | Host Info Resource                                                |
 | DNS_MX     | MX            | Mail Exchanger Resource                                          |
 | DNS_NS     | NS            | Authoritative Name Server Resource                               |
 | DNS_PTR    | PTR           | Pointer Resource (Reverse DNS)                                   |
@@ -53,6 +53,12 @@ The second parameter to the resolve method can be used to define the desired rec
 | DNS_AAAA   | AAAA          | Pv6 Address Resource                                             |
 | DNS_SRV    | SRV           | Service record (SRV record)                                      |
 | DNS_NAPTR  | NAPTR         | Name Authority Pointer                                           |
+
+*** Example ***
+```php
+/* retreive all CNAME records */
+$resolver->resolve('google.com', DNS_CNAME);
+```
 
 ## Unit Testing
 
