@@ -5,6 +5,13 @@
 
 # Redbox-dns (NOT READY)
 
+Redbox-dns could be used to retrieve dns records for a domain you wish to query for. The API offered to you extremely easy.
+
+
+# Examples
+
+In the examples folder you find basic examples of how to scan your filesystem. If you want to learn howto write your own Adapter i suggest checking out the database example.
+
 ```PHP
 $resolver = new \Redbox\DNS\Resolver();
 $resolver->resolve('php.net', DNS_ALL);
