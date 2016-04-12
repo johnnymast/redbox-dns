@@ -12,38 +12,10 @@ Redbox-dns could be used to retrieve dns records for a domain you wish to query 
 
 In the examples folder you find basic examples of how to scan your filesystem. If you want to learn howto write your own Adapter i suggest checking out the database example.
 
-```PHP
-$resolver = new \Redbox\DNS\Resolver();
-$resolver->resolve('php.net', DNS_ALL);
-print_r($resolver);
-
-```
-
-***output***
-```bash
-$ php ./example.php
-Redbox\DNS\Resolver Object
-(
-    [storage:ArrayIterator:private] => Array
-        (
-            [0] => Array
-                (
-                    [host] => php.net
-                    [class] => IN
-                    [ttl] => 375
-                    [type] => A
-                    [ip] => 72.52.91.14
-                )
-
-            ....
-        )
-
-)
-```
 
 ```php
 $resolver = new \Redbox\DNS\Resolver();
-$resolver->resolve('google.com', DNS_ALL);
+$resolver->resolve('google.com', DNS_MX);
 
 foreach($resolver as $record) {
     if ($record['type'] == 'MX')
