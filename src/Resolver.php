@@ -41,5 +41,4 @@ class Resolver extends \ArrayIterator
 
         return true;
     }
-
 }

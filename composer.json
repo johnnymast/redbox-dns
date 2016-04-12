@@ -1,7 +1,17 @@
 {
   "name": "redbox/dns",
-  "description": "",
-  "keywords": [],
+  "description": "Quickly retrieve any type of DNS record you wish using PHP",
+  "keywords": [
+    "Networking",
+    "IT",
+    "DNS",
+    "Migration",
+    "Tools",
+    "Utilities",
+    "Server",
+    "Unix",
+    "Windows"
+  ],
   "homepage": "https://github.com/johnnymast/redbox-dns",
   "support": {
     "issues": "https://github.com/johnnymast/redbox-dns/issues",

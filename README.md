@@ -3,7 +3,7 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/?branch=master)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
-# Redbox-dns (NOT READY)
+# Redbox-dns
 
 Redbox-dns can be used to quickly query dns records a given domain. The API it self is extremely easy to use but you can always check out the [examples](https://github.com/johnnymast/redbox-dns/tree/master/examples) directory for some examples.
 
