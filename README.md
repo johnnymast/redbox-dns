@@ -34,7 +34,7 @@ MX 10 aspmx.l.google.com
 
 ```
 
-# Resolve Options (TODO)
+# Resolve Options
 
 The second parameter to the resolve method can be used to define the desired record type to return. Below is a list of the available record types.
 
@@ -65,8 +65,6 @@ $resolver->resolve('google.com', DNS_CNAME);
 Redbox-dns comes with a suite of tests that you can run. The tests will be automaticaly run on
 [trevis-ci.com](https://travis-ci.org/johnnymast/redbox-dns) and inspected on [scrutinizer-ci.com](https://scrutinizer-ci.com/g/johnnymast/redbox-dns/?branch=master).
 
-xxx
-
 ## Requirements
 
 The following versions of PHP are supported by this version.
@@ -76,11 +74,6 @@ The following versions of PHP are supported by this version.
 + PHP 5.6
 + PHP 7
 + HHVM
-
-## Development Requirements
-
-+ Phpunit 4.6
-
 
 ## Author
 
