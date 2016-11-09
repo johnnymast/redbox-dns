@@ -98,7 +98,7 @@ The following versions of PHP are supported by this version.
 + PHP 7.0
 + PHP 7.1
 + HHVM
-
+ 
 ## License
 
 Redbox-dns is released under the MIT public license.
