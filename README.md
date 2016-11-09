@@ -111,4 +111,4 @@ This package is created and maintained by [Johnny Mast](https://github.com/johnn
  
 ## Enjoy
 
- Oh and if you've come down this far, you might as well [follow me](https://twitter.com/mastjohnny) on twitter.
+Oh and if you've come down this far, you might as well [follow me](https://twitter.com/mastjohnny) on twitter.
